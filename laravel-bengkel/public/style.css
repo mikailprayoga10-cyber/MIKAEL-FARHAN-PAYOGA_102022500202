@@ -1,0 +1,87 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo h1 { color: #ffc107; font-size: 28px; font-weight: 800; }
+.logo p { font-size: 10px; font-weight: bold; color: #555; }
+
+.container {
+    padding: 40px 50px;
+    background-color: #fff;
+    margin: 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.container h2 {
+    color: #0b132b;
+    border-bottom: 3px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary { background-color: #ffc107; color: #000; margin-bottom: 15px;}
+.btn-save { background-color: #0b132b; color: #ffc107; }
+.btn-back { background-color: #ccc; color: #333; }
+.btn-edit { background-color: #4CAF50; color: white; padding: 5px 10px; }
+.btn-delete { background-color: #f44336; color: white; padding: 5px 10px; }
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table th { background-color: #0b132b; color: #fff; }
+table tr:hover { background-color: #f1f1f1; }
+
+/* Form */
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
